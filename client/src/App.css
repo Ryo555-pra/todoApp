@@ -1,0 +1,57 @@
+/* 2カラムの基本レイアウト */
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* 左：サイドバー */
+.sidebar {
+  width: 256px; /* 64 * 4px = w-64 */
+  flex-shrink: 0; /* 縮まない */
+  height: 100vh; /* 画面高いっぱい */
+  position: sticky;
+  top: 0;
+  border-right: 1px solid #e5e7eb;
+  background: #fff;
+  padding: 16px;
+}
+
+/* 右：メイン */
+.main {
+  flex: 1;
+  min-width: 0;
+  overflow: auto;
+  padding: 24px;
+}
+
+/* サイドバー内装飾 */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.navlist {
+  list-style: none; /* 黒ポチ消す */
+  padding: 0;
+  margin: 12px 0 0;
+}
+.navlink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: #475569; /* slate-600 */
+  text-decoration: none;
+}
+.navlink:hover {
+  background: #f8fafc; /* slate-50 */
+  color: #0f172a; /* slate-900 */
+}
+.tip {
+  font-size: 11px;
+  color: #9ca3af;
+  margin-top: 8px;
+}
