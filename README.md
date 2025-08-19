@@ -15,6 +15,10 @@
 4. [技術決定の理由](#技術決定の理由)
 5. [開発ルール](docs/development-rules.md) ← 別ページへリンク
 
+### ※プルリクエストを作成する際は、以下のテンプレートを利用してください。
+
+👉 [Pull Request Template](.github/pull_request_template.md)
+
 ---
 
 ## 目的
