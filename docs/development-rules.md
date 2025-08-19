@@ -126,6 +126,10 @@
 
 - **セルフレビュー必須**（diff への自己コメント歓迎）
 
+### ※プルリクエストを作成する際は、以下のテンプレートを利用してください。
+
+👉 [Pull Request Template](../.github/pull_request_template.md)
+
 ## 13) タスクの完了条件（DoD）
 
 - 動作確認済み（ローカル/WSL）
